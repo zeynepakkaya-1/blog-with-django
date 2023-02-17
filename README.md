@@ -1,7 +1,7 @@
 # blog-with-django
 Personal blog with Django web framework.
 
-![main page](https://www.linkpicture.com/view.php?img=LPic63efd0f0a8fbb1153511039)
+![main page](https://www.linkpicture.com/q/Screenshot-2023-02-17-220116.png)
 
 ![django entry](https://ibb.co/mC9jnGV)
 
