@@ -1,8 +1,8 @@
 # blog-with-django
 Personal blog with Django web framework.
 
-![](https://ibb.co/Lv1rnxH)
+![main page](https://ibb.co/Lv1rnxH)
 
-![](https://ibb.co/mC9jnGV)
+![django entry](https://ibb.co/mC9jnGV)
 
-![](https://ibb.co/849F4Js)
+![python entry](https://ibb.co/849F4Js)
