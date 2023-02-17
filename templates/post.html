@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Slab', serif;
+            background-color: #18122B;
+        }
+
+        .header {
+            text-align: center;
+            margin: 20px auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid whitesmoke;
+            border-top: 1px solid whitesmoke;
+            width: 80%;
+            background-color: #443C68;
+        }
+
+        h1 {
+            color: whitesmoke;
+            font-style: italic;
+        }
+
+        .row {
+            width: 80%;
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .card {
+            margin-top: 0;
+            margin-bottom: 60px;
+            border-left: 2px solid whitesmoke;
+            border-right: 2px solid whitesmoke;
+            background-color: #443C68;
+            padding: 20px;
+        }
+
+        h2,
+        h6,
+        p {
+            margin: 0;
+            color: whitesmoke;
+        }
+
+        h2 {
+            letter-spacing: 0.3rem;
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        h6 {
+            font-style: italic;
+            font-size: 0.8rem;
+            margin-bottom: 5px;
+            color: rgb(189, 177, 177);
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Zeynep's Blog</h1>
+    </div>
+
+    <div class="row">
+
+        <div class="card">
+
+            <h2>{{post.title}}</h2>
+            <h6>{{post.time}}</h6>
+            <p>{{post.body}}</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
